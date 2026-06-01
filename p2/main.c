@@ -15,7 +15,7 @@ int main()
     int *py = y + N -1;         
     
     for (int i = 0; i < N; i++) {
-        printf("%d ", (*px) + (*py)); 
+        printf(" %d", (*px) + (*py)); 
         px++;
         py--;
     }
