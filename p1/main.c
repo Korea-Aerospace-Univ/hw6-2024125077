@@ -6,7 +6,7 @@ int main()
     int maxCount = 0;
     char maxA = '\0';
     
-    for (int *p = arr; p < arr + 10; p++) scanf("%c", p);
+    for (char *p = arr; p < arr + 10; p++) scanf("%c", p);
     
     for (char *p1 = arr; p1 < arr + 10; p1++) {
 
